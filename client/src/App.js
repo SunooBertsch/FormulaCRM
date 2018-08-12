@@ -13,7 +13,12 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <button href="/login" />
+        <div style={{ textAlign: "center" }}>
+          <div style={{ height: "200px", width: "100%" }} />
+          <a href="/login">
+            Login
+          </a>
+        </div>
       </div>
     );
   }
